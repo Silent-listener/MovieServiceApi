@@ -19,6 +19,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @Api(value="MovieCruiser", description="Operations pertaining to Movie in Movie Cruiser App")
 @RequestMapping("/api/v1")
 
